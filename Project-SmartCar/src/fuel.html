@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fuel capacity</title>
+
+ <link rel="stylesheet" href="css/reset.css" type="text/css">
+   
+    <!-- Your custom files -->
+    <link rel="stylesheet" href="css/app.css" type="text/css">
+
+    <script src="js/ngi.polyfill.min.js"></script>
+    <script src="GMLIB/system.js"></script>
+    <script src="GMLIB/info.js"></script>
+
+
+<style>
+
+	body{
+		position:relative;
+		background-color:#3A3636 ;
+	}
+	#icon-back{
+		padding-top: 120px;
+	}
+	
+	#car{
+		position:relative;
+		margin-left: 460px;
+	}
+	
+	#window{
+		position:relative;
+		color: aliceblue;
+		text-align: center;
+	
+	}
+	
+	#div2{
+		position:relative;
+		margin-left: 920px;
+		margin-top: -240px;
+	}
+	
+	#fuel{
+		position:relative;
+		color: aliceblue;
+	}
+	
+	#line1{
+		position:relative;
+		margin-left: 160px;
+		margin-top: -430px;
+	}
+	
+	
+	
+	
+	
+	/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
+
+.alert {
+    opacity: 1;
+    transition: opacity 0.6s; /* 600ms to fade out */
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+<div id="icon-back">
+	<a href="myCar.html"><img src="icons/icon-back.png" height="42" width="42"/></a>
+	</div>
+	
+	
+	
+<h1 id="window" style="font-size: 30px;">Fuel capacity</h1>
+      
+ 
+ <div id="message">
+ <div class="alert">
+  <span class="closebtn"></span> 
+  Your fuel level tank is really low !
+</div>
+</div>
+      
+      
+
+      <div id="car">
+	<img src="icons/car.png" height="540" width="360"/>
+    </div>
+    
+     <div id="line1">
+  
+	<img src="icons/fuel_level.png" height="250" width="250"/>
+    </div>
+	
+	
+	<div id="div2">
+   <h1 id="h1" style="color:beige; font-size: 20px;">Capacity</h1>
+   <div id="fuelOK" style="color:aquamarine; font-family: 'Lucida Grande'; font-size: 100px; "></div>
+   <div id="fuelGood" style="color:darkorange; font-family: 'Lucida Grande'; font-size: 100px; "></div>
+   <div id="fuelBad" style="color:firebrick; font-family: 'Lucida Grande'; font-size: 100px; "></div>
+    
+   <h2 id="units">%</h2>       
+    </div>
+
+</body>
+  <script src="js/fuel.js"></script>
+</html>

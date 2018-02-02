@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>control windows car</title>
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+   
+    <!-- Your custom files -->
+    <link rel="stylesheet" href="css/app.css" type="text/css">
+
+    <script src="js/ngi.polyfill.min.js"></script>
+    <script src="GMLIB/system.js"></script>
+    <script src="GMLIB/info.js"></script>
+
+<style>
+
+	body{
+		background-color:#3A3636 ;
+	}
+	#icon-back{
+		position:relative;
+		margin-top: 120px;
+	}
+	
+	#window{
+		position:relative;
+		color: aliceblue;
+		text-align: center;
+	
+	}
+	
+	#car{
+		position:relative;
+		margin-left: 460px;
+	}
+	
+	#line1{
+		position:relative;
+		margin-left: 160px;
+		margin-top: -370px;
+	}
+	
+	#line2{
+		position:relative;
+		margin-left: 160px;
+		margin-top:  50px;
+	}
+	
+	#line3{
+		position:relative;
+		margin-left: 860px;
+		margin-top: -420px;
+	}
+	
+	#line4{
+		position:relative;
+		margin-left: 860px;
+		margin-top:  50px;
+	}
+	
+	
+	
+	
+	/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
+
+.alert {
+    opacity: 1;
+    transition: opacity 0.6s; /* 600ms to fade out */
+}
+	
+</style>
+
+
+</head>
+
+<body>
+
+   <div id="icon-back">
+	<a href="myCar.html"><img src="icons/icon-back.png" height="42" width="42"/></a>
+	</div>
+
+
+	<h1 id="window">Window Control</h1>
+	
+	
+<div id="messageDriver">
+ <div class="alert">
+  <span class="closebtn"></span> 
+  Please close your Driver window !
+</div>
+</div>
+
+<div id="messagePassenger">
+ <div class="alert">
+  <span class="closebtn"></span> 
+  Please close your Passenger window !
+</div>
+</div>
+
+
+<div id="messageLeftrear">
+ <div class="alert">
+  <span class="closebtn"></span> 
+  Please close your Leftrear window !
+</div>
+</div>
+
+<div id="messageRightrear">
+ <div class="alert">
+  <span class="closebtn"></span> 
+  Please close your Rightrear window !
+</div>
+</div>
+ 
+
+ 
+	<div id="car">
+	<img src="icons/car.png" height="540" width="360"/>
+    </div>
+    
+    <div id="line1">
+    <div id="driverOK" style="color:aliceblue; font-family: 'Lucida Grande'; font-size: 30px; padding-left: 50px;"></div>
+    <div id="driverNO" style="color:red; font-family: 'Lucida Grande'; font-size: 30px; padding-left: 50px;"></div>
+	<img src="icons/line.png" height="150" width="200"/>
+    </div>
+    
+    <div id="line2">
+      <div id="LeftrearOK" style="color:aliceblue; font-family: 'Lucida Grande'; font-size: 30px; padding-left: 50px;"></div>
+     <div id="LeftrearNO" style="color:red; font-family: 'Lucida Grande'; font-size: 30px; padding-left: 50px;"></div>
+	<img src="icons/line.png" height="150" width="200"/>
+    </div>
+    
+    
+    <div id="line3">
+      <div id="passengerOK" style="color:aliceblue; font-family: 'Lucida Grande'; font-size: 30px; padding-left: 50px;"></div>
+     <div id="passengerNO" style="color:red; font-family: 'Lucida Grande'; font-size: 30px; padding-left: 50px;"></div>
+	<img src="icons/line.png" height="150" width="200"/>
+    </div>
+    
+    <div id="line4">
+     <div id="RightrearOK" style="color:aliceblue; font-family: 'Lucida Grande'; font-size: 30px; padding-left: 50px;"></div>
+     <div id="RightrearNO" style="color:red; font-family: 'Lucida Grande'; font-size: 30px; padding-left: 50px;"></div>
+	<img src="icons/line.png" height="150" width="200"/>
+    </div>
+    
+    
+
+    
+    
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+
+  <script src="js/windows.js"></script>
+  <script src="js/windows1.js"></script>
+  <script src="js/windows3.js"></script>
+  <script src="js/windows4.js"></script>
+</body>
+
+</html>
