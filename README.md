@@ -10,4 +10,6 @@ the first one "Module with Machine learning" is for the module containing machin
 the second one "Project-SmartCar" is for our application and its differents segments to see how you can control the car.
 
 -----------
+Master Big Data Analytics & Smart Systems // Faculty of science Dhar Mahraz - Fez/Morocco
+
 © 2018 Designed by FHIYIL Soufiane & ALAZIZI Youssef & KABLY Ahmed All Rights Reserved.
