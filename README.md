@@ -18,3 +18,9 @@ Master Big Data Analytics & Smart Systems // Faculty of science Dhar Mahraz - Fe
 -----------
 <b>Screenshots</b>
 <img src="/Screenshots/capture_1.png"/>
+<img src="/Screenshots/capture_2.png"/>
+<img src="/Screenshots/capture_3.png"/>
+<img src="/Screenshots/capture_4.png"/>
+<img src="/Screenshots/capture_5.png"/>
+<img src="/Screenshots/capture_6.png"/>
+<img src="/Screenshots/capture_7.png"/>
