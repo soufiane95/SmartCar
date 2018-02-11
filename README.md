@@ -16,5 +16,5 @@ Master Big Data Analytics & Smart Systems // Faculty of science Dhar Mahraz - Fe
 
 
 -----------
-
-<p style="font-size:160%;"><b>Screenshots</b></p>
+<b>Screenshots</b>
+<img src="/Users/soufianefhiyil/Documents/GitHub/smartCar/Screenshots/capture_1.png"/>
